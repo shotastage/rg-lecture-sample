@@ -7,5 +7,5 @@ function times() {
 }
 
 function disp_rg_message() {
-    echo "第２回RG講義"
+    echo "第3回RG講義"
 }
