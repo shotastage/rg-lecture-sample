@@ -7,5 +7,7 @@ function times() {
 }
 
 function disp_rg_message() {
-    echo "第3回RG講義"
+    for ((i=1; i < 15; i++)); do
+        echo "第" $i "回RG講義"
+    done
 }

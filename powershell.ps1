@@ -22,6 +22,9 @@ class CoreLib{
 # 関数の定義
 function Disp-Name([string]$1, [string]$2)
 {
+    if ($1 -eq "SHELLはくそ") {
+        return "SHELLは神だ" 
+    }
     return "Your name is $1 $2." 
 }
 

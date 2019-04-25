@@ -5,7 +5,13 @@
 
 # 関数の定義
 function dispName() {
-    echo "Your name is $1 $2." 
+
+    if [ $1 = "SHELLはくそ" ]; then
+        echo "SHELLは神だ"
+        exit 1
+    else
+        echo "Your name is $1 $2." 
+    fi
 }
 
 
